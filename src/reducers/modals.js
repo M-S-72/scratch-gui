@@ -77,7 +77,7 @@ const openLoadingProject = function () {
     return openModal(MODAL_LOADING_PROJECT);
 };
 const openPreviewInfo = function () {
-    // return openModal(MODAL_PREVIEW_INFO);
+    return openModal(MODAL_PREVIEW_INFO);
 };
 const openTelemetryModal = function () {
     return openModal(MODAL_TELEMETRY);
