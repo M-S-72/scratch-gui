@@ -16,6 +16,8 @@ import text2speechImage from './text2speech.png';
 import text2speechInsetImage from './text2speech-small.svg';
 import makeymakeyImage from './makeymakey.png';
 import makeymakeyInsetImage from './makeymakey-small.svg';
+import ms72Image from './ms72.png';
+import ms72InsetImage from './ms72-small.svg';
 
 import microbitPeripheralImage from './peripheral-connection/microbit/microbit-illustration.svg';
 import microbitMenuImage from './peripheral-connection/microbit/microbit-small.svg';
@@ -232,6 +234,23 @@ export default [
             />
         ),
         helpLink: 'https://scratch.mit.edu/wedo'
+
+    },{
+        name: 'M_S_72 Test',
+        extensionId: 'ms72',
+        collaborator: 'M_S_72',
+        iconURL: ms72Image,
+        insetIconURL: ms72InsetImage,
+        description: (
+            <FormattedMessage
+                defaultMessage="My test extension."
+                description="Description for the 'M_S_72 Test' extension"
+                id="gui.extension.ms72.description"
+            />
+        ),
+        featured: true,
+        disabled: false,
+        helpLink: 'https://scratch.mit.edu/users/M_S_72'
 
     }
 ];
