@@ -29,6 +29,23 @@ import wedoButtonImage from './peripheral-connection/wedo/wedo-button-illustrati
 
 export default [
     {
+        name: 'M_S_72 Test',
+        extensionId: 'ms72',
+        collaborator: 'M_S_72',
+        iconURL: ms72Image,
+        insetIconURL: ms72InsetImage,
+        description: (
+            <FormattedMessage
+                defaultMessage="My test extension."
+                description="Description for the 'M_S_72 Test' extension"
+                id="gui.extension.ms72.description"
+            />
+        ),
+        featured: true,
+        disabled: false,
+        helpLink: 'https://scratch.mit.edu/users/M_S_72'
+
+    },{
         name: (
             <FormattedMessage
                 defaultMessage="Music"
@@ -234,23 +251,6 @@ export default [
             />
         ),
         helpLink: 'https://scratch.mit.edu/wedo'
-
-    },{
-        name: 'M_S_72 Test',
-        extensionId: 'ms72',
-        collaborator: 'M_S_72',
-        iconURL: ms72Image,
-        insetIconURL: ms72InsetImage,
-        description: (
-            <FormattedMessage
-                defaultMessage="My test extension."
-                description="Description for the 'M_S_72 Test' extension"
-                id="gui.extension.ms72.description"
-            />
-        ),
-        featured: true,
-        disabled: false,
-        helpLink: 'https://scratch.mit.edu/users/M_S_72'
 
     }
 ];
