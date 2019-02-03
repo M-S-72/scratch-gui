@@ -249,8 +249,7 @@ export default [
             />
         ),
         featured: true,
-        disabled: false,
-        helpLink: 'https://scratch.mit.edu/users/M_S_72'
+        disabled: false
 
     }
 ];
