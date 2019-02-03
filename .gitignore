@@ -18,3 +18,7 @@ npm-*
 # generated translation files
 /translations
 /locale
+
+# Eclipse
+/.settings
+.project
