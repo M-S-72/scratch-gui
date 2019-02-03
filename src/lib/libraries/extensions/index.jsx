@@ -42,8 +42,7 @@ export default [
             />
         ),
         featured: true,
-        disabled: false,
-        helpLink: 'https://scratch.mit.edu/users/M_S_72'
+        disabled: false
 
     },{
         name: (
@@ -252,5 +251,24 @@ export default [
         ),
         helpLink: 'https://scratch.mit.edu/wedo'
 
+<<<<<<< HEAD
+=======
+    },{
+        name: 'M_S_72 Test',
+        extensionId: 'ms72',
+        collaborator: 'M_S_72',
+        iconURL: ms72Image,
+        insetIconURL: ms72InsetImage,
+        description: (
+            <FormattedMessage
+                defaultMessage="My test extension."
+                description="Description for the 'M_S_72 Test' extension"
+                id="gui.extension.ms72.description"
+            />
+        ),
+        featured: true,
+        disabled: false
+
+>>>>>>> a2342328a6a9c47af9d55fa52ecaab7a4fd1ead4
     }
 ];
