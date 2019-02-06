@@ -29,7 +29,13 @@ import wedoButtonImage from './peripheral-connection/wedo/wedo-button-illustrati
 
 export default [
     {
-        name: 'M_S_72 Test',
+        name: (
+            <FormattedMessage
+                defaultMessage="M_S_72 Test"
+                description="Name for the 'M_S_72 Test' extension"
+                id="gui.extension.ms72.name"
+            />
+        ),
         extensionId: 'ms72',
         collaborator: 'M_S_72',
         iconURL: ms72Image,
