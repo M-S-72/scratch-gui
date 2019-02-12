@@ -27,7 +27,6 @@ describe('Working with backdrops', () => {
 
     test('Adding a backdrop from the library', async () => {
         await loadUri(uri);
-        await clickXpath('//button[@title="Try It"]');
 
         // Start on the sounds tab of sprite1 to test switching behavior
         await clickText('Sounds');
@@ -51,13 +50,12 @@ describe('Working with backdrops', () => {
         await expect(logs).toEqual([]);
     });
 
-    test.only('Adding multiple backdrops at the same time', async () => {
+    test('Adding multiple backdrops at the same time', async () => {
         const files = [
             path.resolve(__dirname, '../fixtures/gh-3582-png.png'),
             path.resolve(__dirname, '../fixtures/100-100.svg')
         ];
         await loadUri(uri);
-        await clickXpath('//button[@title="Try It"]');
 
         const buttonXpath = '//button[@aria-label="Choose a Backdrop"]';
         const fileXpath = `${buttonXpath}/following-sibling::div//input[@type="file"]`;
