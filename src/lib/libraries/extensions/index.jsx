@@ -273,8 +273,6 @@ export default [
             />
         ),
         helpLink: 'https://scratch.mit.edu/wedo'
-<<<<<<< HEAD
-=======
     },
     {
         name: 'LEGO BOOST',
@@ -293,6 +291,5 @@ export default [
         disabled: true,
         bluetoothRequired: true,
         internetConnectionRequired: true
->>>>>>> upstream/develop
     }
 ];
